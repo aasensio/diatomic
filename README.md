@@ -74,7 +74,7 @@ This file indicates the transition to be computed and the magnetic field strengt
 
 This file contains all the quantitative information for the upper and lower level of the transition, including all angular momenta, rotation and coupling constants.
 
-The code is run with `./dipole` and the output Zeeman pattern is written in file `pattern.dat`
+The code is run with `./diatomic` and the output Zeeman pattern is written in file `pattern.dat`
 
 ### Graphical interface
 
