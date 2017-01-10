@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MOL_HAMILTONIAN - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\A\CONFIG~1\Temp\RSP4D3.tmp" with contents
+[
+/compile_only /include:"Release/" /nologo /warn:nofileopt /module:"Release/" /object:"Release/" 
+"C:\Fortran\Mol_Hamiltonian\Fuentes\strength.f90"
+"C:\Fortran\Mol_Hamiltonian\Fuentes\hamiltonian.f90"
+]
+Creating temporary file "C:\DOCUME~1\A\CONFIG~1\Temp\RSP4D4.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:yes /pdb:"Release/MOL_HAMILTONIAN.pdb" /machine:I386 /out:"MOL_HAMILTONIAN.exe" 
+.\Release\build.obj
+.\Release\hamiltonian.obj
+.\Release\input_output.obj
+.\Release\maths.obj
+.\Release\strength.obj
+.\Release\types.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\A\CONFIG~1\Temp\RSP4D4.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\Fortran\Mol_Hamiltonian\Fuentes\strength.f90
+C:\Fortran\Mol_Hamiltonian\Fuentes\hamiltonian.f90
+Linking...
+
+
+
+<h3>Results</h3>
+MOL_HAMILTONIAN.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
